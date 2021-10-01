@@ -1,0 +1,55 @@
+.whole{
+    background-image:url(images/mountains.jpg); 
+     height:100vh;
+  
+    background-size:cover ;
+    background-position-y:80%;
+    background-position-x:70%;
+    background-repeat:no-repeat;
+
+    
+}
+
+
+.Home{
+     padding-top:100px;
+      display:flex;
+      font-family: 'Signika', sans-serif;
+
+    
+}
+
+.arrow{
+    font-size:50px;
+    color:white;
+    margin:0;
+    padding:0;
+    position:absolute;
+    right:50%;
+    left:50%;
+    bottom:5%;
+}
+
+.Hello{
+    color:white;
+    font-size: 46px;
+    margin-left:12%;
+    margin-top:20px;
+}
+
+.Name{
+    font-size:84px;
+    color:#3E48A2;
+    margin-left:20%;
+    width:100%;
+}
+
+.Hobbies{
+    font-size:230x;
+    margin-left:100%;
+    width:100%;
+    color:#E9A9CE;
+
+}
+
+

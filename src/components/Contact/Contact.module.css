@@ -1,0 +1,82 @@
+.wholeContacts{
+    display:flex;
+    height:70vh;
+}
+
+
+.contactForm{
+    background-color:#2E24A0;
+    margin:3rem;
+    border-radius:18px;
+    width:65%;
+    color:white;
+    text-align:right;
+    padding:2em;
+    padding-right:4em;
+    margin-left:8vh;
+    
+
+}
+
+
+.ContactMe{
+    width:100%;
+    font-size:45px;
+}
+
+.form{
+    display:flex;
+    flex-direction:column;
+    margin-top:3rem;
+    width:100%  ;
+}
+
+.formItems{
+    background-color:#2E24A0;
+    border:0px;
+    border-bottom:1px solid white;
+    font-size:32px;
+    margin-top:1em;
+    width:40%;
+    color:white;
+    margin-left:3rem;
+    
+}
+
+
+.line
+{
+  width:100px;background-color:white;
+  border: 0.1em solid white; /* dashed, groove, inset */
+  margin-top:1.5em;margin-bottom:1em;
+}
+
+.line, .text
+{
+  float:right;
+}
+
+.text
+{
+  padding-left:10px;padding-right:0px;
+  font-size:45px;
+}
+
+.formButton{
+    background-color:white;
+    height:3rem;
+    border:0px;
+    font-size:32px;
+    margin-top:1em;
+    width:35%;
+    color:#2E24A0;
+    margin: 4rem auto;
+    border-radius:18px;
+}
+
+.formButton:hover{
+    background-color:rgb(221, 208, 236);
+    cursor:pointer;
+}
+
+
