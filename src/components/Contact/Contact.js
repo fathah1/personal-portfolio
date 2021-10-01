@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import classes from './Contact.module.css'
-import { GoDash } from 'react-icons/go';
+import { HiOutlineMail } from 'react-icons/hi';
+import { AiFillTwitterCircle, AiFillLinkedin, AiFillInstagram  } from 'react-icons/ai';
 import { useForm, ValidationError } from '@formspree/react';
 
 
@@ -36,7 +37,27 @@ const Contact = () => {
          
 
              <div className={classes.socialMedia}>
-                    <h1>socials</h1>
+                    <h1 className={classes.MySocials}>My Socials</h1>
+
+              <div className={classes.emailContainer}>
+                  <HiOutlineMail className={classes.emailLogo}/>
+                  <h1 className={classes.myEmail}>Fathah1@gmail.com</h1>
+              </div>
+
+
+              <div className={classes.socialMediaContainer}>
+                  
+                <div className={classes.socialMediaIconsContainer}>
+                <a href=" https://twitter.com/__fathah__" target="_blank"><AiFillTwitterCircle /></a>
+                <a href=" https://www.linkedin.com/in/muhammedfathah/" target="_blank"><AiFillLinkedin/></a>
+                <a href=" https://www.instagram.com/__fathah__/" target="_blank">< AiFillInstagram /></a>
+                </div>
+
+
+
+              </div>
+
+            
              </div>
 
         </div>
