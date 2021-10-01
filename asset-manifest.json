@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.a617e044.chunk.css",
-    "main.js": "/static/js/main.3ba6d467.chunk.js",
-    "main.js.map": "/static/js/main.3ba6d467.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5660ba5d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5660ba5d.js.map",
-    "static/js/2.9761a77b.chunk.js": "/static/js/2.9761a77b.chunk.js",
-    "static/js/2.9761a77b.chunk.js.map": "/static/js/2.9761a77b.chunk.js.map",
-    "static/js/3.1ac3bde7.chunk.js": "/static/js/3.1ac3bde7.chunk.js",
-    "static/js/3.1ac3bde7.chunk.js.map": "/static/js/3.1ac3bde7.chunk.js.map",
+    "main.css": "/static/css/main.ff03acd5.chunk.css",
+    "main.js": "/static/js/main.1fc77e5f.chunk.js",
+    "main.js.map": "/static/js/main.1fc77e5f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5d14a89c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5d14a89c.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.ef875e9e.chunk.js": "/static/js/2.ef875e9e.chunk.js",
+    "static/js/2.ef875e9e.chunk.js.map": "/static/js/2.ef875e9e.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.9761a77b.chunk.js.LICENSE.txt": "/static/js/2.9761a77b.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
+    "static/css/2.7fc9bc2b.chunk.css.map": "/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.ff03acd5.chunk.css.map": "/static/css/main.ff03acd5.chunk.css.map",
+    "static/js/2.ef875e9e.chunk.js.LICENSE.txt": "/static/js/2.ef875e9e.chunk.js.LICENSE.txt",
+    "static/media/calculator.64e133c6.PNG": "/static/media/calculator.64e133c6.PNG",
+    "static/media/covidTracker.25fef876.PNG": "/static/media/covidTracker.25fef876.PNG",
+    "static/media/me.649194f7.jpg": "/static/media/me.649194f7.jpg",
+    "static/media/Contact.module.css": "/static/media/meLookingMountains.0431014d.jpg",
+    "static/media/Home.module.css": "/static/media/mountains.965e5df9.jpg",
+    "static/media/survey form.abd9a4a2.PNG": "/static/media/survey form.abd9a4a2.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.5660ba5d.js",
-    "static/js/2.9761a77b.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.3ba6d467.chunk.js"
+    "static/js/runtime-main.5d14a89c.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.ef875e9e.chunk.js",
+    "static/css/main.ff03acd5.chunk.css",
+    "static/js/main.1fc77e5f.chunk.js"
   ]
 }
