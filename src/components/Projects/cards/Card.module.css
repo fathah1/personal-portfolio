@@ -7,7 +7,7 @@
   
   .card {
     background: #fff;
-    width: 24em;
+    width: 25vw;
     border-radius: 0.6em;
     margin: 1em;
     overflow: hidden;
@@ -85,6 +85,7 @@ a{
     margin-top:4.4rem;
     margin-left:-0.5rem;
     margin-bottom:5px;
+    font-size:0.7em;
   }
 
   .normal{
@@ -99,9 +100,10 @@ a{
 
     @media (max-width:1000px){
       .b{
-       margin-top:6rem;
-        margin-left:auto;
-        margin-right:auto;
+       margin-top:7rem;
+     
+        margin-left: -0.5rem;
+        margin-right:2rem;
         text-align:center;
       }
 
@@ -110,8 +112,13 @@ a{
         text-align:center;
 
       }
+      
+      .card{
+        width:50vw;
+      }
+      
 
       .a h2,p{
-          margin-top:;
+          margin-top:3px;
       }
     }

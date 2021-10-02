@@ -64,6 +64,7 @@
 
 
     .box{
+        height:auto;
         margin-right:auto;
         margin-left:auto;
        max-width:90%;
@@ -84,3 +85,18 @@
 
 
 }
+
+
+@media (max-width:500px){
+    .heading{
+        font-size:3rem;
+        
+        }
+
+
+        .paragraphs{
+            text-align:center;
+            font-size:0.85rem;
+        }
+    
+    }

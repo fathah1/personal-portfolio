@@ -41,7 +41,7 @@ const Contact = () => {
 
               <div className={classes.emailContainer}>
                   <HiOutlineMail className={classes.emailLogo}/>
-                  <h1 className={classes.myEmail}>Fathah1@gmail.com</h1>
+                  <h1 className={classes.myEmail}>fathah1@gmail.com</h1>
               </div>
 
 
