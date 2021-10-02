@@ -51,6 +51,7 @@
   
   .cardBody {
     padding: 1.2em;
+    padding-bottom:3rem;
   }
 
   img{
@@ -83,6 +84,7 @@ a{
     margin:5rem;
     margin-top:4.4rem;
     margin-left:-0.5rem;
+    margin-bottom:5px;
   }
 
   .normal{
@@ -93,3 +95,23 @@ a{
 
   .links:hover{
     background-color:blueviolet;}
+
+
+    @media (max-width:1000px){
+      .b{
+       margin-top:6rem;
+        margin-left:auto;
+        margin-right:auto;
+        text-align:center;
+      }
+
+
+      .a{
+        text-align:center;
+
+      }
+
+      .a h2,p{
+          margin-top:;
+      }
+    }

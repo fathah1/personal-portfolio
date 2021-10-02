@@ -1,6 +1,6 @@
 .wholeContacts{
     display:flex;
-    height:70vh;
+    height:auto;
 }
 
 
@@ -22,7 +22,7 @@
 .ContactMe{
     width:100%;
     font-size:62px;
-    margin-bottom:-20px;
+margin-bottom:-10px;
 }
 
 .form{
@@ -138,4 +138,20 @@ padding:2em;
 
 .socialMediaIconsContainer a, a:hover, a:focus, a:active{
     color:black;
+}
+
+
+@media (max-width: 1000px){
+    .wholeContacts{
+        display:flex;
+        flex-direction:column-reverse;
+        height:auto;
+        align-items:center;
+    }
+
+
+    .socialMedia{
+        height:100vh;
+    }
+    
 }

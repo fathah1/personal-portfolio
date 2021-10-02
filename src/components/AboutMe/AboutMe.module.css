@@ -41,9 +41,46 @@
     height:100%;
     border-radius: 18px;
     margin-left:1%;
-    max-width:50vw;
+    max-width:40vw;
     object-fit: cover;
 
 }
 
+@media (max-width:800px){
+    
 
+
+    .whole{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+       height:70vh;
+    }
+
+    .paragraphs{
+        margin-right:10vh;
+    }
+
+
+    .box{
+        margin-right:auto;
+        margin-left:auto;
+       max-width:90%;
+       min-height:80%;
+    }
+
+    .myImage{
+        display:none;
+    }
+
+    .paragraphs{
+        color:white;
+        font-size:3.2vw;
+        font-family: 'Signika', sans-serif;
+        margin:1.5vh;
+    
+    }
+
+
+}

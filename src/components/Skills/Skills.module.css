@@ -23,9 +23,9 @@ html,body
 }
 
 .skillsContainer{
-   
+ 
     height:100%;
-    margin:rem ;
+    
 }
 
 .skillsBox{
@@ -52,4 +52,53 @@ html,body
     margin:0.5em;
     
  
+}
+
+
+@media (max-width : 1000px){
+
+    .whole{
+        height:auto;
+        margin-left:-1em;
+
+    }
+
+
+
+
+    .skillsBox{
+       height:auto;
+       flex-wrap: wrap;
+       width:90%;
+    }
+
+    .skillsContainer{
+        align-items: center;
+         justify-content: space-around;
+        
+        }
+
+    .skillscons{
+       
+        font-size:72px;
+        display:flex;
+        
+        margin:0.2em;
+        
+     
+
+    }
+
+    .sectionNames{
+        text-align:center;
+        margin-left:-10px;
+        width:100vw;
+         
+
+    }
+
+    .title{
+        margin-left:-20px;
+    }
+
 }

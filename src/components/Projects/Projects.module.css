@@ -61,3 +61,24 @@ html,body
 card{
     height: 100%;
 }
+
+@media (max-width:1000px){
+    .whole{
+        height: auto;
+    }
+    .subHead1{
+        text-align:center;
+    }
+
+    .subHead2{
+        justify-content:center;
+        font-size:1rem;
+    }
+
+
+    .cardHolder{
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        }
+}
