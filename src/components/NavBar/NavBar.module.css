@@ -51,6 +51,48 @@
 }
 
 
+.NavBar .MobileNavigation{
+    display:none;
+}
 
 
+@media (max-width:990px){
+    .NavBar{
+        background-color:rgba(0, 0, 0, 0);}
+    .NavBar .Navigation{
+        display:none;
+    }
+
+    .NavBar .MobileNavigation{
+        display:flex;
+        align-items:center;
+        background: rgba(241, 178, 208, 0.801) ;
+    }
+
+    .NavBar .MobileNavigation .Hamburger{
+        position: absolute;
+        right:5%;
+        top:10%;
+        cursor: pointer;
+        background-color:rgba(0, 0, 0, 0.322);
+        padding:0.2rem;
+        border-radius:10px;
+    }
+
+
+
+    .NavBar nav ul{
+        display:flex;
+        flex-direction:column;
+        margin-top:20px;
+        align-items:center;
+    }
+
+    .NavBar nav ul li{
+        padding-left:1rem;
+      
+        width:100%;
+    }
+
+}
 
