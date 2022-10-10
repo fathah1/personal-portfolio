@@ -1,0 +1,132 @@
+html{
+    font-size:16px;
+}
+
+.whole{
+    background-image:url(images/mountains.jpg); 
+     height:100vh;
+  
+    background-size:cover ;
+    background-position-y:80%;
+    background-position-x:70%;
+    background-repeat:no-repeat;
+    
+    
+}
+
+
+
+.Container{
+   
+    width:80%;
+}
+
+
+.Home{
+  
+    display:flex;
+    font-family: 'Signika', sans-serif;
+    
+    padding-top:20vh;
+    
+}
+
+
+.arrow{
+    font-size:3rem;
+    color:white;
+   
+    margin-top:40vh;
+   
+    text-align:center;
+    width:100vw;
+}
+
+.Hello{
+    color:white;
+    font-size: 46px;
+    margin-left:12%;
+    margin-top:20px;
+}
+
+.Name{
+    font-size:84px;
+    color:#3E48A2;
+    margin-left:20%;
+    width:100%;
+}
+
+.Hobbies{
+    margin-left:80%;
+    width:100%;
+    color:#E9A9CE;
+
+}
+
+
+@media (max-width: 1400px){
+ .Container{
+    
+     width:90%;
+     display:flex;
+     flex-direction: column;
+    align-items:center;
+     text-align:center;
+     justify-content:center;
+     padding:1%;
+     border-radius:12px;
+     margin-top:-3rem;
+     margin-left:auto;
+     margin-right:auto;
+ }
+
+ .Hello{
+     margin:auto;
+ }
+ 
+ .Name{
+     margin:auto;
+     padding:2%;
+     margin-top:-1rem;
+ }
+
+ .Hobbies{
+     margin:auto;
+     margin-bottom:20vh;
+    }
+
+
+     .arrow{
+         width:30%;
+        margin:3rem auto;
+      
+     }
+}
+
+@media (max-width: 500px){
+
+    .Hello{
+    font-size:2.7rem;    
+    }
+
+
+    .Name{
+
+        padding:3%;
+        margin-top:3rem;
+        font-size:4rem;
+        margin-right:auto;
+        margin-left:auto;
+    }
+
+
+    .Hobbies{
+        margin-top:3rem; 
+        margin-bottom:5rem;
+    }
+
+    .arrow{
+        margin-top:3rem;
+       
+    }
+    }
